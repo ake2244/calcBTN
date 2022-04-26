@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Результат</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Результат</h1>
+
+<p th:text="'Число 1: ' + ${greeting.num1}"></p>
+<p th:text="'Действие: ' + ${greeting.Content}"></p>
+<p th:text="'Число 2: ' + ${greeting.num2}"></p>
+<p th:text="'Результат: ' + ${greeting.num3}"></p>
+
+<a href="/">Выполнить другое действие</a>
+</body>
+</html>
